@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 150px auto;
+  max-width: 900px;
+  width: 100%;
+}
+
+form {
+  margin-top: 50px;
+}
+
+input,
+button {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+button {
+  background-color: rgb(214, 211, 216);
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(127, 136, 136);
+}
+
+h1,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
